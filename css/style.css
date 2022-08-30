@@ -8,10 +8,17 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
 }
 
 
 /* contents */
+
+.title {
+    margin: 30px;
+    color: rgb(100, 90, 192);
+    text-align: center;
+}
 
 #shopping-list {
     margin: 30px;
