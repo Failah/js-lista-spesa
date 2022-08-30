@@ -26,3 +26,18 @@ listGenerator.addEventListener('click',
             counter++;
         }
     })
+
+
+// SECRET MESSAGE 
+
+listGenerator.addEventListener('click',
+    function () {
+        document.getElementById('secret-message').classList.add('d-none');
+    }
+)
+
+document.getElementById('secret-message').addEventListener('click',
+    function () {
+        document.getElementById('message-pop').classList.remove('d-none');
+    }
+)

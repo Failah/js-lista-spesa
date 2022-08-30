@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
     background-color: bisque;
 }
 
@@ -20,6 +20,11 @@ body {
     text-align: center;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #shopping-list {
     margin: 30px;
     background-color: brown;
@@ -27,11 +32,40 @@ body {
     max-width: 310px;
 }
 
-button {
+#list-generator {
     margin: 30px;
     padding: 5px 15px;
     border-radius: 10px;
     background-color: yellow;
     color: blue;
     font-weight: bold;
+}
+
+#list-generator:hover {
+    cursor: pointer;
+}
+
+#secret-message {
+    position: absolute;
+    left: 58%;
+    z-index: 1;
+    color: bisque;
+}
+
+#secret-message:hover {
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
+
+#message-pop {
+    padding: 5px;
+    width: 460px;
+    margin: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #ff3385;
+    background-color: #ddd;
 }
