@@ -12,13 +12,17 @@ console.log('JS OK!');
 
 
 const list = ['Pomodori', 'Pane', 'Bevande', 'Carne', 'Zucchero'];
+const listGenerator = document.getElementById('list-generator');
 
 let counter = 0;
 
-while (counter < list.length) {
+listGenerator.addEventListener('click',
+    function () {
+        while (counter < list.length) {
 
-    console.log(list[counter]);
-    document.getElementById('shopping-list').append(list[counter]);
+            console.log(list[counter]);
+            document.getElementById('shopping-list').append(list[counter]);
 
-    counter++;
-}
+            counter++;
+        }
+    })
