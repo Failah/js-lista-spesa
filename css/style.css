@@ -8,3 +8,10 @@
 
 
 /* contents */
+
+#shopping-list {
+    margin: 30px;
+    background-color: brown;
+    color: white;
+    max-width: 300px;
+}
